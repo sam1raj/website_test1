@@ -9,6 +9,8 @@ packages = [{include = "repl_nix_websitetest"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 flask = "^3.0.3"
+django-text = "^1.7.6"
+sqlalchemy = "^2.0.31"
 
 
 [build-system]

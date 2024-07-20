@@ -1,7 +1,10 @@
 language = "python3"
 run = "python app.py"
-modules = ["python-3.10"]
+modules = ["web", "python-3.10"]
 
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[nix]
+channel = "stable-24_05"
